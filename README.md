@@ -74,6 +74,7 @@ class _MyAppState extends State<MyApp> {
       image: new Image.network('https://i.imgur.com/TyCSG9A.png'),
       backgroundColor: Colors.white,
       styleTextUnderTheLoader: new TextStyle(),
+      gradientBackground: new LinearGradient(colors: [Colors.cyan, Colors.blue], begin: Alignment.topLeft, end:     Alignment.bottomRight),
       photoSize: 100.0,
       onClick: ()=>print("Flutter Egypt"),
       loaderColor: Colors.red
